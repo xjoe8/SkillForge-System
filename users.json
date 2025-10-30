@@ -1,0 +1,26 @@
+[
+  {
+    "userID": "SD875",
+    "username": "xjoe8",
+    "name": "Youssef Bassem",
+    "email": "youssef@icloud.com",
+    "password": "123",
+    "courses": ["python", "Java", "Javascript"]
+  },
+  {
+    "userID": "SD125",
+    "username": "youssef0",
+    "name": "Youssef Ibrahim",
+    "email": "youssssef@gmail.com",
+    "password": "1234",
+    "courses": ["C", "C++", "SQL"]
+  },
+  {
+    "userID": "SD102",
+    "username": "joes7",
+    "name": "Yossef Sameh",
+    "email": "yosef@hotmail.com",
+    "password": "12345",
+    "courses": ["HTML", "CSS", "Javascript", "SQL"]
+  }
+]
