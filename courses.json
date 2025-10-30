@@ -1,0 +1,224 @@
+{
+  "courses": [
+    {
+      "courseID": "CS001",
+      "title": "Python",
+      "instructorID": "UR101",
+      "certificateID": "CF001",
+      "lessons": [
+        {
+          "lessonID": "LS101",
+          "title": "Introduction",
+          "content": "Install Python, run first code.",
+          "resources": ["https://www.python.org/"]
+        },
+        {
+          "lessonID": "LS102",
+          "title": "Data Types",
+          "content": "Numbers, strings, booleans",
+          "resources": []
+        },
+        {
+          "lessonID": "LS103",
+          "title": "Control Flow",
+          "content": "if, for, while",
+          "resources": []
+        },
+        {
+          "lessonID": "LS104",
+          "title": "Functions",
+          "content": "Defining functions",
+          "resources": []
+        }
+      ],
+      "quizzes": [
+        {
+          "quizID": "QZ101",
+          "title": "Python MCQ",
+          "questions": [
+            {
+              "questionID": "QS101",
+              "questionText": "Which file extension is usual for Python files?",
+              "options": [".py", ".java", ".txt", ".exe"],
+              "answer": ".py"
+            },
+            {
+              "questionID": "QS102",
+              "questionText": "Which keyword defines a function?",
+              "options": ["function", "def", "fun", "define"],
+              "answer": "def"
+            },
+            {
+              "questionID": "QS103",
+              "questionText": "Which of these is a used for printing?",
+              "options": ["print", "printf", "System.out.print", "cout"],
+              "answer": "print"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseID": "CS002",
+      "title": "Java",
+      "instructorID": "UR102",
+      "certificateID": "CF002",
+      "lessons": [
+        {
+          "lessonID": "LS201",
+          "title": "Java Setup",
+          "content": "Downloading intellij",
+          "resources": []
+        },
+        {
+          "lessonID": "LS202",
+          "title": "OOP Concepts",
+          "content": "Classes, objects, inheritance, polymorphism.",
+          "resources": []
+        },
+        {
+          "lessonID": "LS203",
+          "title": "GUI",
+          "content": "JFrame, JPanel, JLabel and JButton",
+          "resources": []
+        }
+      ],
+      "quizzes": [
+        {
+          "quizID": "QZ201",
+          "title": "Java MCQ",
+          "questions": [
+            {
+              "questionID": "QS201",
+              "questionText": "Which keyword is used to inherit a class in Java?",
+              "options": ["implements", "extends", "inherits", "uses"],
+              "answer": "extends"
+            },
+            {
+              "questionID": "QS202",
+              "questionText": "Which one is not a Java access modifier?",
+              "options": ["public", "protected", "package", "private"],
+              "answer": "package"
+            },
+            {
+              "questionID": "QS203",
+              "questionText": "What does JVM stand for?",
+              "options": ["Java Virtual Machine", "Java Variable Method", "Just Verify Machine", "Java Version Manager"],
+              "answer": "Java Virtual Machine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseID": "CS003",
+      "title": "JavaScript",
+      "instructorID": "UR102",
+      "certificateID": "CF003",
+      "lessons": [
+        {
+          "lessonID": "LS301",
+          "title": "Intro to JS",
+          "content": "History of JS",
+          "resources": []
+        },
+        {
+          "lessonID": "LS302",
+          "title": "DOM & Events",
+          "content": "Selecting elements, event handling",
+          "resources": []
+        },
+        {
+          "lessonID": "LS303",
+          "title": "Async JS",
+          "content": "Callbacks, Promises, async/await.",
+          "resources": []
+        }
+      ],
+      "quizzes": [
+        {
+          "quizID": "QZ301",
+          "title": "JavaScript MCQ",
+          "questions": [
+            {
+              "questionID": "QS301",
+              "questionText": "Which is used to declare a block-scoped variable?",
+              "options": ["var", "let", "function", "def"],
+              "answer": "let"
+            },
+            {
+              "questionID": "QS302",
+              "questionText": "Which method converts JSON string to object?",
+              "options": ["JSON.parse", "JSON.stringify", "JSON.toObject", "JSON.decode"],
+              "answer": "JSON.parse"
+            },
+            {
+              "questionID": "QS303",
+              "questionText": "What will '[] + []' produce?",
+              "options": ["\"\"", "0", "[]", "Error"],
+              "answer": "\"\""
+            },
+            {
+              "questionID": "QS304",
+              "questionText": "Which keyword creates an anonymous function with lexical 'this'?",
+              "options": ["function", "=>", "lambda", "def"],
+              "answer": "=>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseID": "CS004",
+      "title": "C",
+      "instructorID": "UR101",
+      "certificateID": "CF004",
+      "lessons": [
+        {
+          "lessonID": "LS401",
+          "title": "C Setup & First Program",
+          "content": "Compiler, main function",
+          "resources": []
+        },
+        {
+          "lessonID": "LS402",
+          "title": "Pointers & Memory",
+          "content": "Pointers, arrays and memory layout",
+          "resources": []
+        },
+        {
+          "lessonID": "LS403",
+          "title": "Structs & File I/O",
+          "content": "Structures, reading/writing files",
+          "resources": []
+        }
+      ],
+      "quizzes": [
+        {
+          "quizID": "QZ004",
+          "title": "C Language MCQ",
+          "questions": [
+            {
+              "questionID": "QS401",
+              "questionText": "Which header is needed for printf?",
+              "options": ["<stdio.h>", "<stdlib.h>", "<string.h>", "<math.h>"],
+              "answer": "<stdio.h>"
+            },
+            {
+              "questionID": "QS402",
+              "questionText": "What is the type of '&ptr' if ptr is int *?",
+              "options": ["int", "int **", "int *", "void *"],
+              "answer": "int **"
+            },
+            {
+              "questionID": "QS403",
+              "questionText": "Which function allocates dynamic memory?",
+              "options": ["malloc", "alloc", "new", "create"],
+              "answer": "malloc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

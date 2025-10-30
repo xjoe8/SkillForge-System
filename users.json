@@ -1,26 +1,66 @@
 [
-  {
-    "userID": "SD875",
-    "username": "xjoe8",
-    "name": "Youssef Bassem",
-    "email": "youssef@icloud.com",
-    "password": "123",
-    "courses": ["python", "Java", "Javascript"]
-  },
-  {
-    "userID": "SD125",
-    "username": "youssef0",
-    "name": "Youssef Ibrahim",
-    "email": "youssssef@gmail.com",
-    "password": "1234",
-    "courses": ["C", "C++", "SQL"]
-  },
-  {
-    "userID": "SD102",
-    "username": "joes7",
-    "name": "Yossef Sameh",
-    "email": "yosef@hotmail.com",
-    "password": "12345",
-    "courses": ["HTML", "CSS", "Javascript", "SQL"]
-  }
+    {
+      "userID": "UR001",
+      "name": "Youssef",
+      "username": "joe8",
+      "email": "yb@icloud.com",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "userID": "UR002",
+      "name": "Basmala",
+      "username": "basmala8",
+      "email": "basmala@gmail.com",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "userID": "UR003",
+      "name": "Chris",
+      "username": "Chris1",
+      "email": "chris@hotmail.com",
+      "password": "1233",
+      "role": "student"
+    },
+    {
+      "userID": "UR004",
+      "name": "Jolie",
+      "username": "jolie0",
+      "email": "jolie@gmail.com",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "userID": "UR101",
+      "name": "Youssef",
+      "username": "youssef8",
+      "email": "joe@icloud.com",
+      "password": "0123",
+      "role": "instructor"
+    },
+    {
+      "userID": "UR102",
+      "name": "Yossef",
+      "username": "yossef0",
+      "email": "yossef@icloud.com",
+      "password": "012",
+      "role": "instructor"
+    },
+    {
+      "userID": "UR103",
+      "name": "Ahmed",
+      "username": "ahmed2",
+      "email": "ahmed@outlook.com",
+      "password": "12345",
+      "role": "instructor"
+    },
+    {
+      "userID": "UR201",
+      "name": "Yousif",
+      "username": "Admin",
+      "email": "admin@icloud.com",
+      "password": "123",
+      "role": "admin"
+    }
 ]
